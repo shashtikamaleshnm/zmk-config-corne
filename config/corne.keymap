@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kt LA(TAB)  &kp N1      &kp N2  &kp N3  &kp N4  &kp N5       &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&trans       &trans      &trans  &trans  &trans  &trans       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT    &kp LA(F4)  &trans  &trans  &trans  &trans       &trans    &trans    &trans    &trans     &trans  &trans
-                                 &trans  &trans  &kp SPACE    &kp RET   &mo 4     &kp RALT
+&kp TAB       &kp N1      &kp N2   &kp N3       &kp N4         &kp N5       &kp N6    &kp N7    &kp N8     &kp N9     &kp N0  &kp BSPC
+&kp CAPSLOCK  &trans      &kp END  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME     &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &trans  &trans
+&kp LSHFT     &kp LA(F4)  &trans   &trans       &trans         &trans       &trans    &trans    &trans     &trans     &trans  &trans
+                                   &trans       &trans         &kp SPACE    &kp RET   &mo 4     &kp RCTRL
             >;
         };
 
