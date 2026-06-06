@@ -74,10 +74,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none           &kp Q  &kp W  &kp E             &kp R         &kp T        &kp Y  &kp U  &kp I          &kp O    &kp P     &none
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D             &kp F         &kp G        &kp H  &kp J  &kp K          &kp L    &kp SEMI  &kp BACKSPACE
-&none           &kp Z  &kp X  &kp C             &kp V         &kp B        &kp N  &kp M  &kp COMMA      &kp DOT  &kp FSLH  &none
-                              &kp LEFT_CONTROL  &kp LEFT_GUI  &kp SPACE    &mo 2  &mo 3  &kp RIGHT_ALT
+&none           &kp Q  &kp W  &kp E             &kp R         &kp T    &kp Y  &kp U      &kp I          &kp O    &kp P     &none
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D             &kp F         &kp G    &kp H  &kp J      &kp K          &kp L    &kp SEMI  &kp BACKSPACE
+&none           &kp Z  &kp X  &kp C             &kp V         &kp B    &kp N  &kp M      &kp COMMA      &kp DOT  &kp FSLH  &none
+                              &kp LEFT_CONTROL  &kp LEFT_GUI  &mo 2    &mo 3  &kp SPACE  &kp RIGHT_ALT
             >;
         };
 
@@ -104,10 +104,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB       &kp N1      &kp N2    &kp N3         &kp N4       &kp N5       &kp N6    &kp N7    &kp N8     &kp N9     &kp N0  &kp BSPC
-&kp CAPSLOCK  &trans      &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END      &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &trans  &trans
-&kp LSHFT     &kp LA(F4)  &trans    &trans         &trans       &trans       &trans    &trans    &trans     &trans     &trans  &kp RIGHT_SHIFT
-                                    &trans         &trans       &kp SPACE    &kp RET   &mo 4     &kp RCTRL
+&none           &kp N1      &kp N2    &kp N3         &kp N4       &kp N5          &kp N6    &kp N7    &kp N8     &kp N9     &kp N0  &kp BSPC
+&kp LEFT_SHIFT  &trans      &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END         &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &trans  &trans
+&none           &kp LA(F4)  &trans    &trans         &trans       &kp CAPSLOCK    &trans    &trans    &trans     &trans     &trans  &kp RIGHT_SHIFT
+                                      &trans         &trans       &kp SPACE       &kp RET   &mo 4     &kp RCTRL
             >;
         };
 
