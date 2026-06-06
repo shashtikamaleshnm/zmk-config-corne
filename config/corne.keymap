@@ -52,11 +52,6 @@
             key-positions = <19 20 21>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <1 2>;
-        };
-
         quotes {
             bindings = <&kp SQT>;
             key-positions = <21 22>;
