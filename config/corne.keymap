@@ -119,10 +119,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none           &kp EXCL  &kp AT  &kp HASH          &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR       &kp RPAR   &none
-&kp LEFT_SHIFT  &tog 0    &tog 1  &trans            &trans    &trans       &kp MINUS  &kp EQUAL  &none      &kp BACKSLASH  &kp GRAVE  &kp BACKSPACE
-&none           &trans    &trans  &trans            &trans    &trans       &kp UNDER  &kp PLUS   &none      &kp PIPE       &kp TILDE  &none
-                                  &kp LEFT_CONTROL  &trans    &trans       &trans     &trans     &kp RALT
+&none           &kp EXCL   &kp AT  &kp HASH          &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR       &none
+&kp LEFT_SHIFT  &kp GRAVE  &trans  &trans            &tog 0    &tog 1       &kp MINUS  &kp EQUAL  &trans     &trans    &kp BACKSLASH  &kp BACKSPACE
+&none           &kp TILDE  &trans  &trans            &trans    &trans       &kp UNDER  &kp PLUS   &trans     &trans    &kp PIPE       &none
+                                   &kp LEFT_CONTROL  &trans    &trans       &trans     &trans     &kp RALT
             >;
         };
 
